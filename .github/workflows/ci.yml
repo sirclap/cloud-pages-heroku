@@ -1,6 +1,6 @@
 name: Continous Integration workflow
 
-on: pull_reuest
+on: pull_request
 
 jobs:
   ci:
