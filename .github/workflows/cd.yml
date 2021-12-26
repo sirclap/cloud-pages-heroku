@@ -20,7 +20,7 @@ jobs:
         run: |
           curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
           heroku container:login
-      - name: Build docker image
+      - name: Build docker image v2
         run: docker build -t ${{ env.DOCKER_TAG }} .
       - name: Deploy docker image
         run: |
